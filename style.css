@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "General Sans";
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+#main{
+  width: 100%;
+}
+
+#hero{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+#nav{
+  background-color: black;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  padding: 32px 3vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav a{
+  font-weight: 700;
+  font-size: 17.5px;
+}
+
+#bigtitles{
+  width: 100%;
+  padding: 180px 32px;
+  padding-bottom: 70px;
+}
+
+#bigtitles h1{
+  font-size: 10.5vmax;
+  text-transform: uppercase;
+  line-height: 0.9;
+  opacity: 65%;
+}
+
+#designer-title{
+  width: fit-content;
+}
+
+#designer-title h1{
+  margin-left: 140px;
+}
+
+#designer-title h5{
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: right;
+}
+
+#freelance{
+  font-size: 17px;
+  line-height: 2;
+  text-align: right;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+#sublinks{
+  display: flex;
+  margin-top: 65px;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+
+#sublinks a{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#downbuttons{
+  display: flex;
+  gap: 6px;
+}
+
+.circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #888;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  
+}
+
+#second{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-top: 180px;
+  height: 100vh;
+  background-color: black;
+}
+
+.elem{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 88%;
+  height: 160px;
+  padding-left: 30px;
+  border-top: 1px solid #888;
+  margin-left: 28px;
+}
+
+.elem h1{
+  font-size: 8vw;
+  text-transform: uppercase;
+  opacity: .7;
+}
+
+.elem h5{
+  font-size: 17px;
+}
+
+.borderforlastelem{
+  border-bottom: 1px solid #888;
+}
+
+.elem img{
+  display: none;
+  z-index: 1;
+  position: absolute;
+  height: 300px;
+}
+
+#about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  gap: 60px;
+}
+
+#about img{
+  width: 240px;
+  height: 240px;
+}
+
+#about h5{
+  opacity: .6;
+}
+
+#aboutme-texts{
+  width: 35rem;
+}
+
+#aboutme-texts p{
+  font-size: 2.5vmin;
+  margin-bottom: 30px;
+}
+
+#aboutme-texts a{
+  padding: 7px 20px;
+  width: 70px;
+  border: 1px solid white;
+  border-radius: 20px;
+
+}
+
+
